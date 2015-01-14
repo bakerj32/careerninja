@@ -1,0 +1,87 @@
+h2{
+	color: #018cf9;
+	font: normal 20px/20px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-shadow:1px 1px 1px #333333
+}
+ul{list-style-type: square; margin: 0 0 10px 30px; font: normal 13pt/13pt Arial, Helvetica, sans-serif;}
+form legend{color: #018cf9; font: normal 20px/20px Arial, Helvetica, sans-serif; font-weight: bold; text-shadow:1px 1px 1px #333333}
+form label{font-size: 12pt; margin: 0 10px 0 0;}
+form input[type="text"]{padding: 10px 3px 10x 3px;}
+
+p{font: normal 13pt/13pt Arial, Helvetica, sans-serif; padding: 5px;}
+
+#content form{
+	background-color: #eaf4fd; 
+	border: 1px solid #a6c9e2;
+	padding: 20px;
+	font-size: 12pt;
+	width: 50%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+#results{
+	width: 100%;
+	margin: 0;
+	-moz-box-shadow: 0px 0px 0px 0px #666;
+	-webkit-box-shadow: 0px 0px 0px 0px #666;
+	box-shadow: 0px 0px 0px 0px #666;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
+#home{height: 400px;}
+
+#navigation{
+	width: 97%;
+	margin: 0 auto 0 auto;
+}
+
+#resultsPane{
+	width: 97%;
+	margin: 0 auto 0 auto;
+	height: 400px;
+}
+
+#results h3{
+	width: 97%;
+	margin: 5px auto 5px auto;
+}
+
+#content{
+	padding: 10px;
+	
+}
+
+#content p{
+	margin: 0 0 20px 0;
+}
+
+#updates{
+	background-color: #eaf4fd; 
+	border: 1px solid #a6c9e2;
+	padding: 20px;
+	font-size: 12pt;
+	float: right;
+	width: 29%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#updates ul{
+	margin: 0 0 0 40px;
+}
+.form-text{
+	padding: 5px; 
+	border: 1px solid #a6c9e2;
+	font-weight: bold;
+}
+.right{
+	float: right;
+}

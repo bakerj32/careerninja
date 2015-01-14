@@ -1,0 +1,218 @@
+h3 {
+	text-align: center; 
+	margin: 5px 0 8px 0;
+	padding: .5em;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #666;
+	-webkit-box-shadow: 1px 1px 1px #666;
+	box-shadow: 1px 1px 1px #666;
+}
+
+#intro{
+	overflow: hidden;
+	padding: 15px;
+}
+#intro input[type="submit"]{
+	clear: none;
+	float: left;
+	display: inline;
+	margin: 0 0 0 20px;
+	padding: 5px 10px 5px 10px;
+}
+#intro input[type="text"]{
+	clear: none;
+	float: left;
+	font-size: 14pt;
+	margin-bottom: 30px;
+}
+
+#intro label{float: left; font-size: 14pt; margin: 0 10px 0 0;}
+
+#zipResult{
+	font-weight: bold;
+}
+#container {
+	background-color: #eaf4fd; 
+	border: 1px solid #a6c9e2;
+	border-bottom: none; 
+	margin: 0 auto 0 auto; 
+	height: auto;
+	width: 100%; 
+}
+
+#header {
+	background-image: url('images/headerBg.png');
+	border-bottom: 2px solid #a6c9e2; 
+	height: 70px; 
+	padding: 0;
+	width: 100%; 
+}
+
+#headerSearch{
+	background-color: #eaf4fd;
+	border: 2px solid #a6c9e2;
+	float: right;
+	height: 30px;
+	margin: 10px 20px 0 0;
+	padding: 2px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 500px;
+}
+
+#headerSearch label{
+	margin-left: 5px;
+}
+
+#header p{float: right; margin: 2px 3px 0 0;}
+#header h2{float: left; font-size: 14pt; margin: 20px 0 0 3px; color: #FFF;}
+#zip{margin: 0 0 0 0;}
+#search{margin: 0 20px 0 0;}
+#displayCity{clear: both; margin: 0 auto 0 auto; color: #FFF; font-weight: bold; width: 20%;}
+
+#leftBar{float: left; width: 15%; margin: .5em;}
+
+#categoryPane {
+	height: 605px; 
+	margin-top: .2em; 
+	padding: 0.5em; 
+	width: 100%; 
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px 1px #666;
+	-webkit-box-shadow: 1px 1px 1px 1px #666;
+	box-shadow: 1px 1px 1px 1px #666;
+}
+
+#selCategories {list-style-type: none; width: 100%;}
+#selCategories .ui-selecting { background: #FECA40; }
+#selCategories .ui-selected { background: #F39814; color: white; }
+#selCategories li {
+	font-size: 1.0em; 
+	margin: .2em 0 .2em 0; 
+	padding: 0.2em; 
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+#selCategories li:hover{cursor: hand;}
+
+#selCompanies {list-style-type: none; width: 100%;}
+#selCompanies .ui-selecting { background: #FECA40; }
+#selCompanies .ui-selected { background: #F39814; color: white; }
+#selCompanies li {
+	font-size: 1.0em; 
+	margin: .2em 0 .2em 0; 
+	padding: 0.2em; 
+	overflow: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+#selCompanies li:hover{cursor: hand;}
+
+
+#results{
+	background-color: #FFF;
+	border: 1px solid #a6c9e2; 
+	font-size: 8pt;
+	float: right; 
+	padding: 2px;  
+	margin: .6em 1em 1em .4em; 
+	height: 615px;
+	-moz-box-shadow: 1px 1px 1px 1px #666;
+	-webkit-box-shadow: 1px 1px 1px 1px #666;
+	box-shadow: 1px 1px 1px 1px #666;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 81%; 
+}
+
+#radio{
+	margin: 1em 0 1em 0;
+}
+
+#radio input[type="radio"]{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 81%; 
+
+}
+
+#radio label{
+	padding: 5px;
+}
+
+#resultsPane {
+	height: 543px; 
+	margin-top: 1em; 
+	padding: 0.5em; 
+	width: 99%; 
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#resultsPane tr:hover{
+	background-color: #DDD;
+}
+
+#footer{
+	clear: both;
+	height: 50px;
+}
+
+.green{color: green;}
+.red{color: red;}
+.rounded{border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;}
+
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(../../js/icons/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../../js/icons/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../../js/icons/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
